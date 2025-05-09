@@ -362,6 +362,20 @@ h3 a:hover {
   clear: both;
 }
 
+span.highlight1 {
+  background-color: #ffefd0;
+}
+
+span.highlight2 {
+  background-color: #ffffd0;
+}
+
+.publication.highlight1 {
+  background-color: #ffefd0;
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
 /* Add vertical separation between publications */
 /* .publication {
   margin-bottom: 1.5em;
