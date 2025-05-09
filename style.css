@@ -354,3 +354,17 @@ h3 a:hover {
   bottom: 0;
   line-height: 2.5em;
 }
+
+/* Clearfix for list-item to handle floated children */
+.list-item::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add vertical separation between publications */
+.publication {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e0e0e0;
+}

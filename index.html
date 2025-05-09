@@ -410,6 +410,9 @@
 
     </div>
 
+    <!-- Load imagesLoaded before this script -->
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
     <script>
 
       // Isotope grid.
@@ -429,6 +432,12 @@
             return parseFloat( weight.replace( /[\(\)]/g, '') );
           }
         }
+      });
+
+      // Apply layout after all images are loaded
+      imagesLoaded('.grid', function () {
+        $grid.isotope('layout');
+        update_isotope();  // apply filter after layout
       });
 
       // Bind filter button click.
