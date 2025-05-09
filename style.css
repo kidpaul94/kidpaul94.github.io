@@ -363,7 +363,7 @@ h3 a:hover {
 }
 
 span.highlight1 {
-  background-color: #ffefd0;
+  background-color: #e8d0ff;
 }
 
 span.highlight2 {
@@ -371,7 +371,13 @@ span.highlight2 {
 }
 
 .publication.highlight1 {
-  background-color: #ffefd0;
+  background-color: #e8d0ff;
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.publication.highlight2 {
+  background-color: #ffffd0;
   border-radius: 5px;
   padding: 0.6em;
 }
